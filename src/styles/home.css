@@ -1,0 +1,52 @@
+.detail,
+.description,
+.cardTitle {
+    color: white
+}
+
+.detail {
+    padding-right: 50px;
+}
+
+.containerCardDetail {
+    margin: 0 100px;
+}
+
+.cards::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.cards::-webkit-scrollbar:window-inactive {
+    display: none;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-color: #ffc108;
+    border-radius: 8px;
+
+}
+
+.cardContainer {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.cardContainer:hover {
+    transform: scale(1.05);
+
+}
+
+body {
+    background: black;
+    
+  }
+canvas {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+  
